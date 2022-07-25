@@ -1,0 +1,127 @@
+body {
+  background-color: #44475a;
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+  color: #ff79c6;
+  text-align: center;
+  text-transform: capitalize;
+}
+ul {
+  list-style: none;
+}
+.wrapper {
+  padding-top: 10px;
+  background-color: #282a36;
+  max-width: 600px;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+.weather-search {
+  padding: 5px 10px 0 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #44475a;
+}
+.search {
+  background-color: #50fa7b;
+  padding: 5px 25px;
+}
+.current-position {
+  background-color: #ff79c6;
+  padding: 5px 0;
+  width: 100%;
+  font-weight: 400;
+  border-radius: 0.375rem;
+  border-color: #282a36;
+  transition: all 200ms ease-in-out;
+}
+.current-position:hover {
+  background-color: #ffb86c;
+}
+
+.weather-today {
+  margin: 5px;
+  padding: 5px;
+  padding-top: 20px;
+}
+
+.center {
+  position: relative;
+  left: 15px;
+  text-align: center;
+}
+.today-icon {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.temperature {
+  color: #ff5555;
+}
+.units {
+  position: relative;
+  top: -8px;
+  color: #ffb86c;
+}
+.weather-description {
+  color: #f8f8f2;
+}
+
+.forecast {
+  border-top: 2px solid #44475a;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.day {
+  color: #f8f8f2;
+}
+.forecast-icon {
+  font-size: 20px;
+  padding: 5px;
+}
+.sun-icon {
+  color: #f1fa8c;
+}
+.bolt-icon {
+  color: #ffb86c;
+}
+.rain-icon {
+  color: #6272a4;
+}
+.cloud-sun-icon {
+  color: #8be9fd;
+}
+.temperature-min {
+  opacity: 70%;
+}
+.tem-forecast {
+  font-size: smaller;
+}
+.degree {
+  font-size: 30px;
+}
+#humidity {
+  color: #6272a4;
+}
+#wind {
+  color: #8be9fd;
+}
+#date {
+  color: #50fa7b;
+  padding-left: 15px;
+}
+#tem-today {
+  font-size: 30px;
+}
+#fahrenheit {
+  background-color: #282a36;
+  border: none;
+  color: #bd93f9;
+  padding: 0px;
+}
+#celcius {
+  background-color: #282a36;
+  border: none;
+  color: #ffb86c;
+  padding: 0px;
+}
