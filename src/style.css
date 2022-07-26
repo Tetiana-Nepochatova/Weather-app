@@ -10,6 +10,14 @@ h1 {
 ul {
   list-style: none;
 }
+small {
+  color: #282a36;
+  display: block;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
 .wrapper {
   padding-top: 10px;
   background-color: #282a36;
